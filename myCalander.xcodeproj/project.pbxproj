@@ -9,21 +9,49 @@
 /* Begin PBXBuildFile section */
 		6113AC9528AA05F800B60B14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113AC9428AA05F800B60B14 /* AppDelegate.swift */; };
 		6113AC9728AA05F800B60B14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113AC9628AA05F800B60B14 /* SceneDelegate.swift */; };
-		6113AC9928AA05F800B60B14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113AC9828AA05F800B60B14 /* ViewController.swift */; };
 		6113AC9C28AA05F800B60B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6113AC9A28AA05F800B60B14 /* Main.storyboard */; };
 		6113AC9E28AA05FC00B60B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6113AC9D28AA05FC00B60B14 /* Assets.xcassets */; };
 		6113ACA128AA05FC00B60B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6113AC9F28AA05FC00B60B14 /* LaunchScreen.storyboard */; };
+		6113ACA928AA101B00B60B14 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113ACA828AA101B00B60B14 /* CalendarViewController.swift */; };
+		6113ACAB28AA102A00B60B14 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113ACAA28AA102A00B60B14 /* ToDoListViewController.swift */; };
+		6113ACAD28AA103100B60B14 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113ACAC28AA103100B60B14 /* SettingViewController.swift */; };
+		6113ACAF28AA103800B60B14 /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113ACAE28AA103800B60B14 /* MemoViewController.swift */; };
+		6113ACB128AA1F7900B60B14 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113ACB028AA1F7900B60B14 /* AddTaskViewController.swift */; };
+		6113ACB528AA437400B60B14 /* AddMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6113ACB428AA437400B60B14 /* AddMemoViewController.swift */; };
+		614398CA28AB1D95006E98B4 /* TodoListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614398C928AB1D95006E98B4 /* TodoListTableViewCell.swift */; };
+		614398CC28AB1EE1006E98B4 /* EventStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614398CB28AB1EE1006E98B4 /* EventStruct.swift */; };
+		614398CE28AB27DD006E98B4 /* MemoStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614398CD28AB27DD006E98B4 /* MemoStruct.swift */; };
+		614398D028AB4025006E98B4 /* MemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614398CF28AB4025006E98B4 /* MemoTableViewCell.swift */; };
+		614398D228AB4A2D006E98B4 /* EditMemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614398D128AB4A2D006E98B4 /* EditMemoViewController.swift */; };
+		614398D428AB600B006E98B4 /* SetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614398D328AB600B006E98B4 /* SetPasswordViewController.swift */; };
+		614398D628ABA89F006E98B4 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614398D528ABA89F006E98B4 /* LockViewController.swift */; };
+		E5765583BEF410EBD363B319 /* Pods_myCalander.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7383ADF9D4CE7D21D8F27DD4 /* Pods_myCalander.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6113AC9128AA05F800B60B14 /* myCalander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myCalander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6113AC9428AA05F800B60B14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6113AC9628AA05F800B60B14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6113AC9828AA05F800B60B14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6113AC9B28AA05F800B60B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6113AC9D28AA05FC00B60B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6113ACA028AA05FC00B60B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6113ACA228AA05FC00B60B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6113ACA828AA101B00B60B14 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		6113ACAA28AA102A00B60B14 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
+		6113ACAC28AA103100B60B14 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6113ACAE28AA103800B60B14 /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		6113ACB028AA1F7900B60B14 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		6113ACB428AA437400B60B14 /* AddMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMemoViewController.swift; sourceTree = "<group>"; };
+		614398C928AB1D95006E98B4 /* TodoListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListTableViewCell.swift; sourceTree = "<group>"; };
+		614398CB28AB1EE1006E98B4 /* EventStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStruct.swift; sourceTree = "<group>"; };
+		614398CD28AB27DD006E98B4 /* MemoStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStruct.swift; sourceTree = "<group>"; };
+		614398CF28AB4025006E98B4 /* MemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
+		614398D128AB4A2D006E98B4 /* EditMemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMemoViewController.swift; sourceTree = "<group>"; };
+		614398D328AB600B006E98B4 /* SetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPasswordViewController.swift; sourceTree = "<group>"; };
+		614398D528ABA89F006E98B4 /* LockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
+		7383ADF9D4CE7D21D8F27DD4 /* Pods_myCalander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myCalander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		881E4F63FEA838AF7D4C2B48 /* Pods-myCalander.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCalander.debug.xcconfig"; path = "Target Support Files/Pods-myCalander/Pods-myCalander.debug.xcconfig"; sourceTree = "<group>"; };
+		A25B9CC9D09CBCCD7DAFE875 /* Pods-myCalander.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myCalander.release.xcconfig"; path = "Target Support Files/Pods-myCalander/Pods-myCalander.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5765583BEF410EBD363B319 /* Pods_myCalander.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +71,8 @@
 			children = (
 				6113AC9328AA05F800B60B14 /* myCalander */,
 				6113AC9228AA05F800B60B14 /* Products */,
+				A553A5B04C202CD849A167E6 /* Pods */,
+				CB5AC88A38FB2C9C58E4AAC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +89,42 @@
 			children = (
 				6113AC9428AA05F800B60B14 /* AppDelegate.swift */,
 				6113AC9628AA05F800B60B14 /* SceneDelegate.swift */,
-				6113AC9828AA05F800B60B14 /* ViewController.swift */,
 				6113AC9A28AA05F800B60B14 /* Main.storyboard */,
+				614398CB28AB1EE1006E98B4 /* EventStruct.swift */,
+				614398CD28AB27DD006E98B4 /* MemoStruct.swift */,
+				614398D528ABA89F006E98B4 /* LockViewController.swift */,
+				6113ACA828AA101B00B60B14 /* CalendarViewController.swift */,
+				6113ACB028AA1F7900B60B14 /* AddTaskViewController.swift */,
+				6113ACAA28AA102A00B60B14 /* ToDoListViewController.swift */,
+				614398C928AB1D95006E98B4 /* TodoListTableViewCell.swift */,
+				6113ACAE28AA103800B60B14 /* MemoViewController.swift */,
+				614398CF28AB4025006E98B4 /* MemoTableViewCell.swift */,
+				6113ACB428AA437400B60B14 /* AddMemoViewController.swift */,
+				614398D128AB4A2D006E98B4 /* EditMemoViewController.swift */,
+				614398D328AB600B006E98B4 /* SetPasswordViewController.swift */,
+				6113ACAC28AA103100B60B14 /* SettingViewController.swift */,
 				6113AC9D28AA05FC00B60B14 /* Assets.xcassets */,
 				6113AC9F28AA05FC00B60B14 /* LaunchScreen.storyboard */,
 				6113ACA228AA05FC00B60B14 /* Info.plist */,
 			);
 			path = myCalander;
+			sourceTree = "<group>";
+		};
+		A553A5B04C202CD849A167E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				881E4F63FEA838AF7D4C2B48 /* Pods-myCalander.debug.xcconfig */,
+				A25B9CC9D09CBCCD7DAFE875 /* Pods-myCalander.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB5AC88A38FB2C9C58E4AAC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7383ADF9D4CE7D21D8F27DD4 /* Pods_myCalander.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6113ACA528AA05FC00B60B14 /* Build configuration list for PBXNativeTarget "myCalander" */;
 			buildPhases = (
+				13F37346B673233C38EF70F1 /* [CP] Check Pods Manifest.lock */,
 				6113AC8D28AA05F800B60B14 /* Sources */,
 				6113AC8E28AA05F800B60B14 /* Frameworks */,
 				6113AC8F28AA05F800B60B14 /* Resources */,
+				CF96C325DE252C69C4BC632F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +195,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13F37346B673233C38EF70F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myCalander-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF96C325DE252C69C4BC632F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myCalander/Pods-myCalander-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myCalander/Pods-myCalander-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myCalander/Pods-myCalander-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6113AC8D28AA05F800B60B14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6113AC9928AA05F800B60B14 /* ViewController.swift in Sources */,
+				614398D228AB4A2D006E98B4 /* EditMemoViewController.swift in Sources */,
+				6113ACA928AA101B00B60B14 /* CalendarViewController.swift in Sources */,
 				6113AC9528AA05F800B60B14 /* AppDelegate.swift in Sources */,
+				6113ACAB28AA102A00B60B14 /* ToDoListViewController.swift in Sources */,
+				6113ACAF28AA103800B60B14 /* MemoViewController.swift in Sources */,
+				6113ACB528AA437400B60B14 /* AddMemoViewController.swift in Sources */,
+				614398D628ABA89F006E98B4 /* LockViewController.swift in Sources */,
+				614398D428AB600B006E98B4 /* SetPasswordViewController.swift in Sources */,
+				614398CE28AB27DD006E98B4 /* MemoStruct.swift in Sources */,
 				6113AC9728AA05F800B60B14 /* SceneDelegate.swift in Sources */,
+				614398D028AB4025006E98B4 /* MemoTableViewCell.swift in Sources */,
+				6113ACAD28AA103100B60B14 /* SettingViewController.swift in Sources */,
+				6113ACB128AA1F7900B60B14 /* AddTaskViewController.swift in Sources */,
+				614398CA28AB1D95006E98B4 /* TodoListTableViewCell.swift in Sources */,
+				614398CC28AB1EE1006E98B4 /* EventStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +398,7 @@
 		};
 		6113ACA628AA05FC00B60B14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 881E4F63FEA838AF7D4C2B48 /* Pods-myCalander.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +427,7 @@
 		};
 		6113ACA728AA05FC00B60B14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A25B9CC9D09CBCCD7DAFE875 /* Pods-myCalander.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
